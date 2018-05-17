@@ -1,0 +1,111 @@
+{
+  "contractName": "Ins",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "v",
+          "type": "uint256"
+        }
+      ],
+      "name": "addPosPoints",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getPosPoints",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getNegPoints",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "v",
+          "type": "uint256"
+        }
+      ],
+      "name": "addNegPoints",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPoints",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b6102b58061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063382a3dd4146100675780634b1950381461008a578063b21957c2146100d7578063eb3da68b14610124575b600080fd5b341561007257600080fd5b6100886004808035906020019091905050610147565b005b341561009557600080fd5b6100c1600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a7565b6040518082815260200191505060405180910390f35b34156100e257600080fd5b61010e600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101ef565b6040518082815260200191505060405180910390f35b341561012f57600080fd5b6101456004808035906020019091905050610238565b005b6000811015151561015757600080fd5b80610161336101a7565b016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b80610242336101ef565b01600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550505600a165627a7a72305820d2ae5ceedce2857024acbb7543ae561b319b05ac326c1363371d33b5666170720029",
+  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063382a3dd4146100675780634b1950381461008a578063b21957c2146100d7578063eb3da68b14610124575b600080fd5b341561007257600080fd5b6100886004808035906020019091905050610147565b005b341561009557600080fd5b6100c1600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101a7565b6040518082815260200191505060405180910390f35b34156100e257600080fd5b61010e600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101ef565b6040518082815260200191505060405180910390f35b341561012f57600080fd5b6101456004808035906020019091905050610238565b005b6000811015151561015757600080fd5b80610161336101a7565b016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b80610242336101ef565b01600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550505600a165627a7a72305820d2ae5ceedce2857024acbb7543ae561b319b05ac326c1363371d33b5666170720029",
+  "sourceMap": "25:513:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:513:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:124;;;;;;;;;;;;;;;;;;;;;;;;;;351:87;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;441:93;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;251:97;;;;;;;;;;;;;;;;;;;;;;;;;;124:124;186:1;181;:6;;173:15;;;;;;;;243:1;216:24;229:10;216:12;:24::i;:::-;:28;192:9;:21;202:10;192:21;;;;;;;;;;;;;;;:52;;;;124:124;:::o;351:87::-;402:4;416:9;:15;426:4;416:15;;;;;;;;;;;;;;;;409:22;;351:87;;;:::o;441:93::-;492:4;512:9;:15;522:4;512:15;;;;;;;;;;;;;;;;505:22;;441:93;;;:::o;251:97::-;343:1;316:24;329:10;316:12;:24::i;:::-;:28;292:9;:21;302:10;292:21;;;;;;;;;;;;;;;:52;;;;251:97;:::o",
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0xfb88de099e13c3ed21f80a7a1e49f8caecf10df6"
+    }
+  },
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-12-23T06:50:23.402Z"
+}
